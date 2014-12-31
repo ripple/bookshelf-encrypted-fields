@@ -1,0 +1,21 @@
+{
+  "name": "bookshelf-encrypted-fields",
+  "version": "0.1.0",
+  "description": "An encrypted fields plugin for Bookshelf",
+  "main": "lib/encrypted-fields.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/_mocha -- --ui tdd --reporter spec --timeout 10000 --slow 500 test/*-test.js test/unit/*-test.js"
+  },
+  "dependencies": {
+    "bookshelf": "^0.7.9",
+    "knex": "^0.7.3",
+    "lodash": "^2.4.1",
+    "sqlite3": "^3.0.4"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon": "~1.10.0",
+    "sinon-chai": "~2.5.0"
+  }
+}
