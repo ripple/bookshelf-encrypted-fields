@@ -4,7 +4,7 @@
   "description": "An encrypted fields plugin for Bookshelf",
   "main": "lib/encrypted-fields.js",
   "scripts": {
-    "test": "NODE_ENV=test ./node_modules/.bin/_mocha -- --ui tdd --reporter spec --timeout 10000 --slow 500 test/*-test.js test/unit/*-test.js"
+    "test": "./node_modules/.bin/mocha --ui tdd --reporter spec test/*-test.js"
   },
   "dependencies": {
     "bookshelf": "^0.7.9",
