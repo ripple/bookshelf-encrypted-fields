@@ -1,3 +1,0 @@
-# bookshelf-encrypted-fields-hsm
-
-
